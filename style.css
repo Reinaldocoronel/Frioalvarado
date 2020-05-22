@@ -1,0 +1,37 @@
+
+.table__price
+{
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+	width: 100%;
+}
+.table__price img
+{
+	width: 3em;
+	height: auto;
+}
+
+.table__price td, th 
+{
+	padding: 1em;
+	text-align: left;
+    padding-left: 2em;
+}
+.table__row__first td:first-child
+{
+	border-radius: 3em 0em 0em 3em;
+	box-shadow: -1pt -0.2pt 0 1px lightgrey;
+}
+.table__row__first td:nth-child(2)
+{
+	box-shadow: -0.2px 1pt 0 -1px grey;
+}
+.table__row__last td:last-child
+{
+	border-radius: 0em 3em 3em 0em;
+	box-shadow: inset -1pt 0.2pt 0 1px lightgrey;
+}
+.table__row__last td:nth-child(2)
+{
+	box-shadow: inset -0.2px -1pt 0 -1px black;
+}
